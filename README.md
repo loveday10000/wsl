@@ -6,7 +6,10 @@ wsl-linux各种脚本一键换apt国内源，pip国内源，更新系统，配�
 
 重启win10打开linux，每次都要service docker/xrdp/vsftpd/ start，才能使用开启软件，或者自行添加开机自启脚本。
 
-#运行命令
+
+下载https://codeload.github.com/loveday10000/wsl/zip/main全部文件，解压后运行脚本
+
+#或者运行命令
 
 
 #1、wsl-update.sh 更改apt国内源、pip国内源、安装docker、jdk8、更改成中文语言
@@ -24,3 +27,4 @@ wsl-linux各种脚本一键换apt国内源，pip国内源，更新系统，配�
 #4、install_vsftpd.sh 安装并开启vsfptd匿名模式，匿名文件目录在根目录/src/ftp
 
     curl https://raw.githubusercontent.com/loveday10000/wsl/main/install_vsftpd.sh | bash
+  
