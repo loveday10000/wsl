@@ -14,7 +14,7 @@ wget https://github.com/loveday10000/wsl/blob/main/wsl-update.sh && chmod +x ./i
 
 #2、ssh-xshell.sh 解决无法用xshell连接wsl子系统
 
-wget https://github.com/loveday10000/wsl/blob/main/ssh-xshell.sh
+wget https://github.com/loveday10000/wsl/blob/main/ssh-xshell.sh && chmod +x ./install_*.sh && ./install_*.sh 
 
 #3、install_xfce4_desktop.sh 安装xfce4图形化桌面，win10远程桌面连接，输入localhost:3390即可连接。
 wget https://github.com/loveday10000/wsl/blob/main/install_xfce4_desktop.sh && chmod +x ./install_*.sh && ./install_*.sh 
