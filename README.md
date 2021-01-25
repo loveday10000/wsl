@@ -10,7 +10,8 @@ wsl-linux各种脚本一键换apt国内源，pip国内源，更新系统，配�
 
 
 #1、wsl-update.sh 更改apt国内源、pip国内源、安装docker、jdk8、更改成中文语言
-wget wget https://github.com/loveday10000/wsl/blob/main/wsl-update.sh && chmod +x ./install_*.sh && ./install_*.sh
+ 
+wget https://github.com/loveday10000/wsl/blob/main/wsl-update.sh && chmod +x ./install_*.sh && ./install_*.sh
 
 #2、ssh-xshell.sh 解决无法用xshell连接wsl子系统
 
