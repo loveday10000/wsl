@@ -10,17 +10,17 @@ wsl-linux各种脚本一键换apt国内源，pip国内源，更新系统，配�
 
 
 #1、wsl-update.sh 更改apt国内源、pip国内源、安装docker、jdk8、更改成中文语言
- 
-wget https://github.com/loveday10000/wsl/blob/main/wsl-update.sh && chmod +x ./wsl-update.sh && ./wsl-update.sh
+
+    wget https://raw.githubusercontent.com//loveday10000/wsl/blob/main/wsl-update.sh && chmod +x ./wsl-update.sh && ./wsl-update.sh
 
 #2、ssh-xshell.sh 解决无法用xshell连接wsl子系统
 
-wget https://github.com/loveday10000/wsl/blob/main/ssh-xshell.sh && chmod +x ./ssh-xshell.sh && ./ssh-xshell.sh
+    wget https://raw.githubusercontent.com//loveday10000/wsl/blob/main/ssh-xshell.sh && chmod +x ./ssh-xshell.sh && ./ssh-xshell.sh
 
 #3、install_xfce4_desktop.sh 安装xfce4图形化桌面，win10远程桌面连接，输入localhost:3390即可连接。
 
-wget https://github.com/loveday10000/wsl/blob/main/install_xfce4_desktop.sh && chmod +x ./install_xfce4_desktop.sh && ./install_xfce4_desktop.sh
+    wget https://raw.githubusercontent.com//loveday10000/wsl/blob/main/install_xfce4_desktop.sh && chmod +x ./install_xfce4_desktop.sh && ./install_xfce4_desktop.sh
 
 #4、install_vsftpd.sh 安装并开启vsfptd匿名模式，匿名文件目录在根目录/src/ftp
 
-wget https://github.com/loveday10000/wsl/blob/main/install_vsftpd.sh && chmod +x ./install_vsftpd.sh && ./install_vsftpd.sh
+    wget https://raw.githubusercontent.com/loveday10000/wsl/main/install_vsftpd.sh && chmod +x ./install_vsftpd.sh && ./install_vsftpd.sh
