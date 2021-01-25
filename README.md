@@ -6,9 +6,11 @@ wsl-linux各种脚本一键换apt国内源，pip国内源，更新系统，配�
 
 重启win10打开linux，每次都要service docker/xrdp/vsftpd/ start，才能使用开启软件，或者自行添加开机自启脚本。
 
-现在全部脚本并解压
+
+下载全部脚本、解压、授权，然后运行
 
     wget https://codeload.github.com/loveday10000/wsl/zip/main && sudo apt-get install wget curl unzip && unzip main && cd wsl-main && chmod +x ./*.sh
+
 
 #或者运行命令
 
