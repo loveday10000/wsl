@@ -10,7 +10,7 @@ wsl-linux各种脚本一键换apt国内源，pip国内源，更新系统，配�
 下载全部脚本、解压、授权，然后运行
 
     sudo su  #切换到root用户
-    wget https://codeload.github.com/loveday10000/wsl/zip/main && sudo apt-get install wget curl unzip && unzip main && cd wsl-main && chmod +x ./*.sh
+    wget https://codeload.github.com/loveday10000/wsl/zip/main && apt-get install wget curl unzip && unzip main && cd wsl-main && chmod +x ./*.sh
 
 
 #或者运行命令
