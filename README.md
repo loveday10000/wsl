@@ -1,4 +1,4 @@
-# wsl脚本快速使用说明
+# 脚本快速使用说明
 
 适合wsl子系统，和其他ubuntu虚拟机和实体机
 
@@ -31,4 +31,8 @@ wsl-linux各种脚本一键换apt国内源，pip国内源，更新系统，配�
 #4、install_vsftpd.sh 安装并开启vsfptd匿名模式，匿名文件目录在根目录/src/ftp
 
     curl https://raw.githubusercontent.com/loveday10000/wsl/main/install_vsftpd.sh | bash
+
+#5、install_frp.sh 安装并开启vsfptd匿名模式，匿名文件目录在根目录/src/ftp
+
+    curl https://raw.githubusercontent.com/loveday10000/wsl/main/install_frp.sh | bash
   
